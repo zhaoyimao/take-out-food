@@ -1,11 +1,61 @@
-/* 
-请把与index.html页面相关的css代码写在这里
-同时删除该注释
-*/
-
-/* #message只是一个示例，可以删除 */
-#message {
-	height: 30px;
-	line-height: 30px;
-	border: 1px solid red;
+body{
+	background-color: #D9ffff;
+}
+h1{
+	text-align: center;
+}
+#items{
+	width: 100%;
+	height: 200px;
+	overflow:auto;
+}
+table{
+	margin: 0 auto;
+	width:100%;
+	height:200px;
+	border: 1px solid black ;
+	border-collapse: collapse;
+}
+th,td{
+	width:25%;
+	height:45px;
+	text-align:center;
+	border: 1px solid black ;
+}
+input{
+	text-align: center;
+}
+#promotions{
+	margin: 0;
+	margin-left: 15%;
+	width:100%;
+	height: 200px; 
+}
+#youhui_1{
+	margin-top: 5px;
+	height: 40px;
+}
+#youhui_2{
+	margin-top: 5px;
+	height: 60px;
+}
+ul{
+	margin: 0;
+	height: 50px;
+	width:70%;
+	overflow-y:auto;
+}
+#promotions h5{
+	margin:10px 0 0 0;
+}
+h6{
+	margin: 5px 0 0 0;
+}
+li{
+	width: 70%;
+	height: 20px;
+	margin:5px 0 0 0;
+}
+#message{
+	text-align: center;
 }

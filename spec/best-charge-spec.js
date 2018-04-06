@@ -1,4 +1,7 @@
-describe('Take out food', function () {
+var bestCharge=require("../src/best-charge.js");
+
+
+describe('Take_out_food', function () {
 
   it('should generate best charge when best is 指定菜品半价', function() {
     let inputs = ["ITEM0001 x 1", "ITEM0013 x 2", "ITEM0022 x 1"];

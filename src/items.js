@@ -15,5 +15,10 @@ function loadAllItems() {
     id: 'ITEM0030',
     name: '冰锋',
     price: 2.00
-  }];
+  }, {
+    id: 'ITEM0031',
+    name: '梅菜扣肉饼',
+    price: 4.00
+  }]
 }
+module.exports = loadAllItems;
