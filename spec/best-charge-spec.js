@@ -1,6 +1,5 @@
 var bestCharge=require("../src/best-charge.js");
 
-
 describe('Take_out_food', function () {
 
   it('should generate best charge when best is 指定菜品半价', function() {
