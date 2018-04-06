@@ -28,7 +28,7 @@ window.onload=function(){//绑定多个事件
     tr.appendChild(td3);
     var text = document.createElement('input');
     text.setAttribute("type","text");
-    text.setAttribute("id","text");
+    text.setAttribute("id","input");
     //var text1=document.getElementById("test").value;
     text.setAttribute("value","请输入购买数量");
     text.onmousedown=function(){

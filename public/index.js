@@ -40,10 +40,23 @@ return id;
 }
 
 
-function clear() {
+function clearItems() {
   // 清除用户的选择，以及页面显示的信息
   // 清除之后，用户可以继续正常使用各项功能
-  console.log("lallf");
-  var message=document.getElementsByTagName("message");
- message.innerHTML="najlfklksjfdlksfkdldddddddddfjdkkkkkkkk";
+  //console.log("lallf");
+  var message=document.getElementById("message");
+ message.innerHTML="";
+ var table=document.getElementById("table");
+ var tr=table.rows.length;
+ var td=3;
+ var text;
+ for(var i=0;i<tr;i++){
+  text=table.rows[i].getElementsByTagName('input')[0];
+  text.value="请输入购买数量";
+  }
 }
+
+
+
+
+
